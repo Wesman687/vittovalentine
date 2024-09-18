@@ -88,15 +88,15 @@
   color: #0b306e;
 }
 
-#image_block_1 .image-box h3 a{
+#image_block_1 .image-box h3 span{
   color: #0b306e;
 }
 
-#image_block_1 .image-box h3 a i{
+#image_block_1 .image-box h3 span i{
   background: #fa4949;
 }
 
-#image_block_1 .image-box h3 a:before{
+#image_block_1 .image-box h3 span:before{
   background: #fa4949;
 }
 

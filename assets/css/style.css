@@ -1975,7 +1975,7 @@ div[class^="bubble-"] {
   font-weight: 600;
 }
 
-#image_block_1 .image-box h3 a{
+#image_block_1 .image-box h3 span{
   position: relative;
   display: block;
   background: #fff;
@@ -1988,11 +1988,11 @@ div[class^="bubble-"] {
   margin-bottom: 42px;
 }
 
-#image_block_1 .image-box h3:hover a{
+#image_block_1 .image-box h3:hover span{
   color: #fff;
 }
 
-#image_block_1 .image-box h3 a:before{
+#image_block_1 .image-box h3 span:before{
   position: absolute;
   content: '';
   width: 0%;
@@ -2003,12 +2003,12 @@ div[class^="bubble-"] {
   transition: all 500ms ease;
 }
 
-#image_block_1 .image-box h3:hover a:before{
+#image_block_1 .image-box h3:hover span:before{
   width: 100%;
   left: 0px;
 }
 
-#image_block_1 .image-box h3 a i{
+#image_block_1 .image-box h3 span i{
   position: absolute;
   top: 0px;
   right: 0px;
@@ -4611,6 +4611,11 @@ div[class^="bubble-"] {
 
 .team-block-one .inner-box .lower-content .social-links li a:hover{
 
+}
+.team-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .team-section .owl-dots{
