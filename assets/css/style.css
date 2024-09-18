@@ -2293,6 +2293,12 @@ div[class^="bubble-"] {
 
 
 /** service-section **/
+.customer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 48px;
+}
 
 .service-section{
   position: relative;
