@@ -2,7 +2,7 @@
 
 // Define some constants
 define( "RECIPIENT_NAME", "Vitto Valentine Pressure Washing" );
-define( "RECIPIENT_EMAIL", "JRVVVV1@icloud.com" );
+define( "RECIPIENT_EMAIL", "wesman687@gmail.com" );
 
 
 // Read the form values
@@ -21,7 +21,7 @@ if ( $userName && $senderEmail && $userPhone && $userSubject && $message) {
   $success = mail( $recipient, $headers, $msgBody );
 
   //Set Location After Successsfull Submission
-  header('Location: contact.html?message=Successfull');
+  header('Location: success.html');
 }
 
 else{
